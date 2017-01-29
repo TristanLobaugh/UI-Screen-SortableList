@@ -1,0 +1,78 @@
+#app-wrapper{
+	width: 70%;
+	margin: 50px auto;
+	border-radius: 10px;
+	border: 4px solid black;
+}
+
+#list-wrapper{
+	width: 60%;
+	display: inline-block;
+}
+
+#list-header{
+	text-align: center;
+	background-color: #66ffff;
+	padding: 5px;
+	font-size: 20px;
+}
+
+#list{
+	height: 250px;
+	overflow: auto;
+}
+
+.person{
+	font-size: 18px;
+	padding: 3px 10px;
+	border-bottom: solid 2px black;
+}
+
+.name-wrapper, .person-age{
+	display: inline-block;
+}
+
+.person-age{
+	float: right;
+}
+
+
+.under-age{
+	background-color: yellow;
+}
+
+#sort-wrapper{
+	position: relative;
+	top: -80px;
+	width: 39%;
+	display: inline-block;
+	height: 100%;
+	font-size: 25px;
+}
+
+#sort-by-wrapper{
+	text-align: center;
+	padding: 10px;
+}
+
+select{
+	font-size: 18px;
+}
+
+#sort-direction-wrapper{
+	padding: 8px;
+	width: 80%;
+	background-color: lightgrey;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+#sort-button{
+	margin: 10px 25px 0 25px;
+	border-radius: 5px;
+	background-color: #66ffff;
+	font-size: 25px;
+}
+
+

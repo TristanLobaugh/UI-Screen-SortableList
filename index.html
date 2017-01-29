@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UI Screen Sortable List</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+	<div id="app-wrapper">
+		<div id="list-wrapper">
+			<div id="list-header">List of People</div>
+			<div id="list">
+				<div class="person">
+					<div class="name-wrapper">
+						<span class="person-firstName">John </span>
+						<span class="person-lastName">Smith</span>
+					</div>
+						<div class="person-age">55</div>
+				</div>
+			</div>
+		</div>
+		<div id="sort-wrapper">
+		<form id="sort-form">
+			<div id="sort-by-wrapper">
+				<span>Sort By: </span>
+				<span>
+					<select>
+						<option value="age">Age</option>
+						<option value="firstName">First Name</option>
+						<option value="lastName">Last Name</option>
+					</select>
+				</span>
+			</div>
+			<div id="sort-direction-wrapper">
+				<div>Sort Direction</div>
+				  <input type="radio" name="sort-direction" value="asc" checked="true">Ascending<br>
+				  <input type="radio" name="sort-direction" value="dsc">Descending<br>
+			</div>
+			<button id="sort-button" onclick="click();">Sort List</button>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
